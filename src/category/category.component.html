@@ -1,0 +1,41 @@
+<div class="px-16">
+  <div class="flex flex-col gap-3">
+    <h1 class="font-semibold text-2xl">Explore Our Category</h1>
+    <p class="font-semibold text-gray-700 w-[70%] mb-4">
+      Explore our wide selection of musical instruments, ranging from classical
+      to contemporary. Whether you're a beginner or a seasoned musician, find
+      the perfect instrument that suits your style and needs.
+    </p>
+  </div>
+  <div class="flex justify-around gap">
+    <div *ngFor="let data of data">
+      <img
+        [src]="data.image"
+        alt="{{ data.name }}"
+        class="h-[150px] transition-shadow duration-300 ease-in-out rounded-lg cursor-pointer hover:shadow-lg"
+      />
+      <p class="text-center text-xl text-gray-600">{{ data.name }}</p>
+    </div>
+  </div>
+  <hr class="h-0.5 bg-slate-200 rounded-full">
+  <h1 class="font-semibold text-2xl">Popular now</h1>
+  <div class="grid grid-cols-4 gap-4">
+    <div *ngFor="let data_list of data_list">
+      <div class="w-[200px] shadow-lg rounded-lg transition-shadow duration-300 ease-in-out hover:shadow-xl">
+        <img [src]="data_list.image" alt="{{ data_list.name }}" class="w-full h-auto rounded-t-lg" />
+        <div class="px-4 py-2 gap-2">
+          <div class="flex justify-between items-center">
+            <p class="font-semibold text-xl">{{ data_list.name }}</p>
+            <div class="flex items-center">
+              <fa-icon *ngFor="let star of getStars(data_list.rating)" [icon]="star.icon" [class]="star.class"></fa-icon>
+            </div>
+          </div>
+          <p class="text-sm">{{ data_list.description }}</p>
+          <p class="text-green-500 font-semibold">{{ data_list.price }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<app-item-description></app-item-description>
