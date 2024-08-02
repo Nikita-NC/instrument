@@ -3,12 +3,12 @@ import { data, data_list } from '../assets/data';
 import { CommonModule } from '@angular/common';
 import { faStar, faStarHalfStroke } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { ItemDescriptionComponent } from '../item-description/item-description.component';
+import { RouterModule, Router } from '@angular/router';
 
 @Component({
   selector: 'app-category',
   standalone: true,
-  imports: [CommonModule,FontAwesomeModule, ItemDescriptionComponent],
+  imports: [CommonModule,FontAwesomeModule,RouterModule],
   templateUrl: './category.component.html',
   styleUrl: './category.component.css'
 })
@@ -17,6 +17,8 @@ export class CategoryComponent {
   data_list = data_list;
   faStar = faStar;
   faStarHalfStroke = faStarHalfStroke;
+
+  constructor(private router: Router){}
 
   getStars(rating: number) {
     const stars = [];
@@ -34,6 +36,10 @@ export class CategoryComponent {
 
     return stars;
     
+  }
+
+  viewDetails(id: string){
+    this.router.navigate(['/desc',id])
   }
   
 }

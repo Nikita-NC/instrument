@@ -1,33 +1,57 @@
-<div class="px-16">
+<div class="px-32">
   <div class="flex flex-col gap-3">
+    <div class="flex flex-col justify-center relative">
+      <img src="../assets/music.jpg" alt="" class="w-full rounded-[20px]" />
+      <h1
+        class="absolute top-[90px] left-20 text-orange-400 text-2xl font-bold"
+      >
+        Store for Musical Instrument
+      </h1>
+      <p class="absolute top-[120px] left-20 text-slate-300 text-lg">
+        Find the best instruments to create your perfect sound.
+      </p>
+    </div>
     <h1 class="font-semibold text-2xl">Explore Our Category</h1>
-    <p class="font-semibold text-gray-700 w-[70%] mb-4">
+    <p class="font-semibold text-gray-600 w-[70%] mb-4">
       Explore our wide selection of musical instruments, ranging from classical
       to contemporary. Whether you're a beginner or a seasoned musician, find
       the perfect instrument that suits your style and needs.
     </p>
   </div>
-  <div class="flex justify-around gap">
+  <div class="flex justify-around">
     <div *ngFor="let data of data">
-      <img
-        [src]="data.image"
-        alt="{{ data.name }}"
-        class="h-[150px] transition-shadow duration-300 ease-in-out rounded-lg cursor-pointer hover:shadow-lg"
-      />
+      <a [routerLink]="data.link">
+        <img
+          [src]="data.image"
+          alt="{{ data.name }}"
+          class="h-[150px] transition-shadow duration-300 ease-in-out rounded-lg cursor-pointer hover:shadow-lg"
+        />
+      </a>
       <p class="text-center text-xl text-gray-600">{{ data.name }}</p>
     </div>
   </div>
-  <hr class="h-0.5 bg-slate-200 rounded-full">
-  <h1 class="font-semibold text-2xl">Popular now</h1>
-  <div class="grid grid-cols-4 gap-4">
+  <hr class="h-0.5 bg-slate-200 rounded-full mb-4" />
+  <h1 class="font-semibold text-2xl mb-4">Popular now</h1>
+  <div class="flex gap-4 overflow-ellipsis">
     <div *ngFor="let data_list of data_list">
-      <div class="w-[200px] shadow-lg rounded-lg transition-shadow duration-300 ease-in-out hover:shadow-xl">
-        <img [src]="data_list.image" alt="{{ data_list.name }}" class="w-full h-auto rounded-t-lg" />
+      <div
+        (click)="viewDetails(data_list.id)"
+        class="shadow-lg rounded-lg transition-transform duration-300 ease-in-out hover:shadow-xl hover:scale-105"
+      >
+        <img
+          [src]="data_list.image"
+          alt="{{ data_list.name }}"
+          class="w-full h-auto rounded-t-lg"
+        />
         <div class="px-4 py-2 gap-2">
           <div class="flex justify-between items-center">
             <p class="font-semibold text-xl">{{ data_list.name }}</p>
             <div class="flex items-center">
-              <fa-icon *ngFor="let star of getStars(data_list.rating)" [icon]="star.icon" [class]="star.class"></fa-icon>
+              <fa-icon
+                *ngFor="let star of getStars(data_list.rating)"
+                [icon]="star.icon"
+                [class]="star.class"
+              ></fa-icon>
             </div>
           </div>
           <p class="text-sm">{{ data_list.description }}</p>
@@ -37,5 +61,3 @@
     </div>
   </div>
 </div>
-
-<app-item-description></app-item-description>
