@@ -64,3 +64,8 @@ nav{
     
     
 }
+
+.logo{
+    width: 50px;
+    translate: -50px;
+}

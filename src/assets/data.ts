@@ -97,7 +97,7 @@ export const data_list = [
 ]
 export const guitar = [
     {
-        id: "1",
+        id: "9",
         name: "Honer 6",
         image: "",
         description: "Accurate intonation and low action, making it the perfect first guitar for kids.",
@@ -108,7 +108,7 @@ export const guitar = [
     {
         id: "2",
         name: "Fender Stratocaster",
-        image: "",
+        image: "assets/Fender Stratocaster.jpg",
         description: "Iconic electric guitar with a versatile tone and comfortable neck.",
         category: "electric",
         price: "Rs 25000",
@@ -117,7 +117,7 @@ export const guitar = [
     {
         id: "3",
         name: "Gibson Les Paul",
-        image: "",
+        image: "assets/Gibsonlespaul.jpg",
         description: "Classic rock guitar known for its powerful, thick tone and sustain.",
         category: "electric",
         price: "Rs 45000",
@@ -126,7 +126,7 @@ export const guitar = [
     {
         id: "4",
         name: "Ibanez RG",
-        image: "",
+        image: "assets/IbanezRG.jpg",
         description: "High-performance electric guitar with a fast neck and aggressive pickups.",
         category: "electric",
         price: "Rs 30000",
@@ -135,7 +135,7 @@ export const guitar = [
     {
         id: "5",
         name: "Taylor 314ce",
-        image: "",
+        image: "assets/Taylor314ce.jpg",
         description: "Premium acoustic guitar with a warm, balanced sound and excellent playability.",
         category: "acoustic",
         price: "Rs 75000",
@@ -144,7 +144,7 @@ export const guitar = [
     {
         id: "6",
         name: "Martin D-28",
-        image: "",
+        image: "assets/MartinD-28.jpg",
         description: "Legendary acoustic guitar with rich, full-bodied sound and exceptional projection.",
         category: "acoustic",
         price: "Rs 95000",
@@ -153,7 +153,7 @@ export const guitar = [
     {
         id: "7",
         name: "Epiphone Dot",
-        image: "",
+        image: "assets/EpiphoneDot.jpg",
         description: "Affordable semi-hollow body guitar with a smooth, jazzy tone.",
         category: "semi-hollow",
         price: "Rs 20000",
@@ -162,7 +162,7 @@ export const guitar = [
     {
         id: "8",
         name: "PRS SE Custom 24",
-        image: "",
+        image: "assets/PRSSECustom24.jpg",
         description: "Versatile guitar with a wide range of tones and a comfortable neck.",
         category: "electric",
         price: "Rs 35000",
@@ -174,7 +174,7 @@ export const piano = [
     {
         id: "1",
         name: "Yamaha U1",
-        image: "",
+        image: "assets/YamahaU1.jpg",
         description: "A reliable upright piano known for its excellent tone and durability.",
         category: "upright",
         price: "Rs 200000",
@@ -183,7 +183,7 @@ export const piano = [
     {
         id: "2",
         name: "Kawai K-3",
-        image: "",
+        image: "assets/KawaiK-3.jpg",
         description: "High-quality upright piano with a rich, full sound and responsive action.",
         category: "upright",
         price: "Rs 220000",
@@ -192,7 +192,7 @@ export const piano = [
     {
         id: "3",
         name: "Steinway & Sons Model D",
-        image: "",
+        image: "assets/Steinway&SonsModelD.jpg",
         description: "Grand piano renowned for its exceptional sound quality and craftsmanship.",
         category: "grand",
         price: "Rs 2000000",
@@ -201,7 +201,7 @@ export const piano = [
     {
         id: "4",
         name: "Bosendorfer 200",
-        image: "",
+        image: "assets/Bosendorfer200.jpg",
         description: "Elegant grand piano with a rich, warm tone and superior action.",
         category: "grand",
         price: "Rs 3000000",
@@ -210,7 +210,7 @@ export const piano = [
     {
         id: "5",
         name: "Fazioli F308",
-        image: "",
+        image: "assets/FazioliF308.jpg",
         description: "Premium grand piano with an expansive sound and exceptional touch.",
         category: "grand",
         price: "Rs 3500000",
@@ -219,7 +219,7 @@ export const piano = [
     {
         id: "6",
         name: "Roland FP-90X",
-        image: "",
+        image: "assets/RolandFP-90X.jpg",
         description: "Digital piano with advanced features and a realistic feel.",
         category: "digital",
         price: "Rs 120000",
@@ -228,7 +228,7 @@ export const piano = [
     {
         id: "7",
         name: "Korg B1",
-        image: "",
+        image: "assets/KorgB.jpg",
         description: "Affordable digital piano with a variety of sounds and a compact design.",
         category: "digital",
         price: "Rs 35000",
@@ -237,7 +237,7 @@ export const piano = [
     {
         id: "8",
         name: "Casio Privia PX-770",
-        image: "",
+        image: "assets/CasioPriviaPX-770.jpg",
         description: "Digital piano with a realistic grand piano sound and a stylish cabinet.",
         category: "digital",
         price: "Rs 60000",
@@ -249,7 +249,7 @@ export const violin = [
     {
         id: "1",
         name: "Stentor 1500",
-        image: "",
+        image: "assets/Stentor1500.jpg",
         description: "A reliable student violin with a warm tone and good playability.",
         category: "student",
         price: "Rs 15000",
@@ -258,7 +258,7 @@ export const violin = [
     {
         id: "2",
         name: "Cremona SV-175",
-        image: "",
+        image: "assets/CremonaSV-175.jpg",
         description: "Affordable violin for beginners with a good balance of tone and playability.",
         category: "student",
         price: "Rs 18000",
@@ -267,7 +267,7 @@ export const violin = [
     {
         id: "3",
         name: "Yamaha V3",
-        image: "",
+        image: "assets/YamahaV3.jpg",
         description: "High-quality violin with a clear, resonant sound suitable for intermediate players.",
         category: "intermediate",
         price: "Rs 25000",
@@ -276,7 +276,7 @@ export const violin = [
     {
         id: "4",
         name: "Eastman VL100",
-        image: "",
+        image: "assets/EastmanVL100.jpg",
         description: "Well-crafted violin with a warm, full tone and excellent craftsmanship.",
         category: "intermediate",
         price: "Rs 35000",
@@ -285,7 +285,7 @@ export const violin = [
     {
         id: "5",
         name: "Pietro Lombardi Model 10",
-        image: "",
+        image: "assets/PietroLombardiModel10.jpg",
         description: "Professional-level violin with a rich, complex tone and exceptional projection.",
         category: "professional",
         price: "Rs 100000",
@@ -294,7 +294,7 @@ export const violin = [
     {
         id: "6",
         name: "Antonio Stradivari Replica",
-        image: "",
+        image: "assets/AntonioStradivariReplica.jpg",
         description: "High-end violin with a classic, well-balanced sound and exquisite craftsmanship.",
         category: "professional",
         price: "Rs 250000",
@@ -303,7 +303,7 @@ export const violin = [
     {
         id: "7",
         name: "Gliga Gems I",
-        image: "",
+        image: "assets/GligaGemsI.jpg",
         description: "Handcrafted violin with a bright, responsive tone and elegant design.",
         category: "professional",
         price: "Rs 120000",
@@ -315,7 +315,7 @@ export const drums = [
     {
         id: "1",
         name: "Ludwig Accent CS",
-        image: "",
+        image: "assets/LudwigAccentCS.jpg",
         description: "Entry-level drum kit with a versatile sound and durable construction.",
         category: "acoustic",
         price: "Rs 25000",
@@ -324,7 +324,7 @@ export const drums = [
     {
         id: "2",
         name: "Pearl Export EXX",
-        image: "",
+        image: "assets/PearlExportEXX.jpg",
         description: "Reliable drum kit with a wide range of sounds and solid build quality.",
         category: "acoustic",
         price: "Rs 35000",
@@ -333,7 +333,7 @@ export const drums = [
     {
         id: "3",
         name: "Tama Imperialstar",
-        image: "",
+        image: "assets/TamaImperialstar.jpg",
         description: "High-quality drum kit with exceptional sound and a professional feel.",
         category: "acoustic",
         price: "Rs 45000",
@@ -342,7 +342,7 @@ export const drums = [
     {
         id: "4",
         name: "Mapex Mars Series",
-        image: "",
+        image: "assets/MapexMarsSeries.jpg",
         description: "Versatile drum kit with a strong sound and robust construction.",
         category: "acoustic",
         price: "Rs 50000",
@@ -351,7 +351,7 @@ export const drums = [
     {
         id: "5",
         name: "DW Collector's Series",
-        image: "",
+        image: "assets/DWCollector'sSeries.jpg",
         description: "Premium drum kit with a rich, dynamic sound and customizable features.",
         category: "acoustic",
         price: "Rs 150000",
@@ -360,7 +360,7 @@ export const drums = [
     {
         id: "6",
         name: "Roland V-Drums TD-17",
-        image: "",
+        image: "assets/RolandV-DrumsTD-17.jpg",
         description: "Advanced electronic drum kit with realistic sounds and extensive features.",
         category: "electronic",
         price: "Rs 80000",
@@ -369,7 +369,7 @@ export const drums = [
     {
         id: "7",
         name: "Yamaha DTX402K",
-        image: "",
+        image: "assets/Yamaha YV104.jpg",
         description: "Affordable electronic drum kit with a variety of sounds and practice features.",
         category: "electronic",
         price: "Rs 40000",

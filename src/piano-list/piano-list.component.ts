@@ -4,11 +4,12 @@ import { CommonModule } from '@angular/common';
 import { faStar, faStarHalfStroke } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { RouterModule, Router } from '@angular/router';
+import { NavBarComponent } from '../nav-bar/nav-bar.component';
 
 @Component({
   selector: 'app-piano-list',
   standalone: true,
-  imports: [CommonModule, RouterModule, FontAwesomeModule],
+  imports: [CommonModule, RouterModule, FontAwesomeModule,NavBarComponent],
   templateUrl: './piano-list.component.html',
   styleUrl: './piano-list.component.css'
 })
