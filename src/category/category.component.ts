@@ -4,11 +4,12 @@ import { CommonModule } from '@angular/common';
 import { faStar, faStarHalfStroke } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { RouterModule, Router } from '@angular/router';
+import { NavBarComponent } from '../nav-bar/nav-bar.component';
 
 @Component({
   selector: 'app-category',
   standalone: true,
-  imports: [CommonModule,FontAwesomeModule,RouterModule],
+  imports: [CommonModule,FontAwesomeModule,RouterModule, NavBarComponent],
   templateUrl: './category.component.html',
   styleUrl: './category.component.css'
 })
@@ -27,11 +28,11 @@ export class CategoryComponent {
     const totalStars = 5;
 
     for (let i = 0; i < fullStars; i++) {
-      stars.push({ icon: this.faStar, class: 'text-yellow-500' });
+      stars.push({ icon: this.faStar, class: 'text-orange-500' });
     }
 
     if (halfStars) {
-      stars.push({ icon: this.faStarHalfStroke, class: 'text-yellow-500' });
+      stars.push({ icon: this.faStarHalfStroke, class: 'text-orange-500' });
     }
 
     return stars;
