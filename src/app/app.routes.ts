@@ -8,10 +8,18 @@ import { GuitarListComponent } from '../guitar-list/guitar-list.component';
 import { PianoListComponent } from '../piano-list/piano-list.component';
 import { ViolinListComponent } from '../violin-list/violin-list.component';
 import { DrumListComponent } from '../drum-list/drum-list.component';
+import { RegisterComponent } from '../user/register/register.component';
+import { LoginComponent } from '../user/login/login.component';
 
 export const routes: Routes = [
     {
         path: '', component:CategoryComponent
+    },
+    {
+        path: 'register', component:RegisterComponent
+    },
+    {
+        path: 'login', component:LoginComponent
     },
     {
         path: 'item', component:ItemListComponent

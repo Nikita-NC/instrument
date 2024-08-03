@@ -28,7 +28,7 @@ export const data_list = [
         image: "assets/honer.jpg",
         description: " accurate intonation and low action, making it the perfect first guitar for kids.",
         category: "sales",
-        price:"Rs 1000",
+        price: 1000,
         rating:3.6
     },
     {
@@ -37,7 +37,7 @@ export const data_list = [
         image: "assets/yamaha p45.jpg",
         description: "88 fully weighted graded hammer action keys, amazing sounds and USB MIDI out",
         category: "sales",
-        price:"Rs 78000",
+        price: 78000,
         rating:4.8
     },
     {
@@ -46,7 +46,7 @@ export const data_list = [
         image: "assets/PP Drum.png",
         description: "PP drums are designed to make you play and sound your best from your very first steps",
         category: "sales",
-        price:"Rs 1000",
+        price: 1000,
         rating:4.2
     },
     {
@@ -55,7 +55,7 @@ export const data_list = [
         image: "assets/Ester violin.jpg",
         description: "made of spruce wood panel, maple back board and side plate with inlaid in antique varnish.",
         category: "sales",
-        price:"Rs 22142",
+        price: 22142,
         rating:4.2
     },
     {
@@ -64,7 +64,7 @@ export const data_list = [
         image: "assets/Kawai ES110.jpg",
         description: "A compact digital piano with great sound quality and feel.",
         category: "sales",
-        price: "Rs 60000",
+        price:  60000,
         rating: 4.5
     },
     {
@@ -73,7 +73,7 @@ export const data_list = [
         image: "assets/Fender Stratocaster.jpg",
         description: "An iconic electric guitar known for its versatility and classic sound.",
         category: "sales",
-        price: "Rs 75000",
+        price:  75000,
         rating: 4.7
     },
     {
@@ -82,7 +82,7 @@ export const data_list = [
         image: "assets/Yamaha YV104.jpg",
         description: "A high-quality violin with a warm sound and excellent craftsmanship.",
         category: "sales",
-        price: "Rs 28000",
+        price:  28000,
         rating: 4.6
     },
     {
@@ -91,7 +91,7 @@ export const data_list = [
         image: "assets/Roland TD-17.jpg",
         description: "An electronic drum kit with responsive pads and advanced features for practice and performance.",
         category: "sales",
-        price: "Rs 50000",
+        price:  50000,
         rating: 4.8
     }
 ]
@@ -102,7 +102,7 @@ export const guitar = [
         image: "",
         description: "Accurate intonation and low action, making it the perfect first guitar for kids.",
         category: "sales",
-        price: "Rs 1000",
+        price:  1000,
         rating: 3.6
     },
     {
@@ -111,7 +111,7 @@ export const guitar = [
         image: "assets/Fender Stratocaster.jpg",
         description: "Iconic electric guitar with a versatile tone and comfortable neck.",
         category: "electric",
-        price: "Rs 25000",
+        price:  25000,
         rating: 4.5
     },
     {
@@ -120,7 +120,7 @@ export const guitar = [
         image: "assets/Gibsonlespaul.jpg",
         description: "Classic rock guitar known for its powerful, thick tone and sustain.",
         category: "electric",
-        price: "Rs 45000",
+        price:  45000,
         rating: 4.7
     },
     {
@@ -129,7 +129,7 @@ export const guitar = [
         image: "assets/IbanezRG.jpg",
         description: "High-performance electric guitar with a fast neck and aggressive pickups.",
         category: "electric",
-        price: "Rs 30000",
+        price:  30000,
         rating: 4.3
     },
     {
@@ -138,7 +138,7 @@ export const guitar = [
         image: "assets/Taylor314ce.jpg",
         description: "Premium acoustic guitar with a warm, balanced sound and excellent playability.",
         category: "acoustic",
-        price: "Rs 75000",
+        price:  75000,
         rating: 4.8
     },
     {
@@ -147,7 +147,7 @@ export const guitar = [
         image: "assets/MartinD-28.jpg",
         description: "Legendary acoustic guitar with rich, full-bodied sound and exceptional projection.",
         category: "acoustic",
-        price: "Rs 95000",
+        price:  95000,
         rating: 4.9
     },
     {
@@ -156,7 +156,7 @@ export const guitar = [
         image: "assets/EpiphoneDot.jpg",
         description: "Affordable semi-hollow body guitar with a smooth, jazzy tone.",
         category: "semi-hollow",
-        price: "Rs 20000",
+        price:  20000,
         rating: 4.2
     },
     {
@@ -165,7 +165,7 @@ export const guitar = [
         image: "assets/PRSSECustom24.jpg",
         description: "Versatile guitar with a wide range of tones and a comfortable neck.",
         category: "electric",
-        price: "Rs 35000",
+        price:  35000,
         rating: 4.6
     }
 ];
@@ -177,7 +177,7 @@ export const piano = [
         image: "assets/YamahaU1.jpg",
         description: "A reliable upright piano known for its excellent tone and durability.",
         category: "upright",
-        price: "Rs 200000",
+        price:  200000,
         rating: 4.8
     },
     {
@@ -186,7 +186,7 @@ export const piano = [
         image: "assets/KawaiK-3.jpg",
         description: "High-quality upright piano with a rich, full sound and responsive action.",
         category: "upright",
-        price: "Rs 220000",
+        price:  220000,
         rating: 4.7
     },
     {
@@ -195,7 +195,7 @@ export const piano = [
         image: "assets/Steinway&SonsModelD.jpg",
         description: "Grand piano renowned for its exceptional sound quality and craftsmanship.",
         category: "grand",
-        price: "Rs 2000000",
+        price:  2000000,
         rating: 4.9
     },
     {
@@ -204,7 +204,7 @@ export const piano = [
         image: "assets/Bosendorfer200.jpg",
         description: "Elegant grand piano with a rich, warm tone and superior action.",
         category: "grand",
-        price: "Rs 3000000",
+        price:  3000000,
         rating: 4.9
     },
     {
@@ -213,7 +213,7 @@ export const piano = [
         image: "assets/FazioliF308.jpg",
         description: "Premium grand piano with an expansive sound and exceptional touch.",
         category: "grand",
-        price: "Rs 3500000",
+        price:  3500000,
         rating: 5.0
     },
     {
@@ -222,7 +222,7 @@ export const piano = [
         image: "assets/RolandFP-90X.jpg",
         description: "Digital piano with advanced features and a realistic feel.",
         category: "digital",
-        price: "Rs 120000",
+        price:  120000,
         rating: 4.6
     },
     {
@@ -231,7 +231,7 @@ export const piano = [
         image: "assets/KorgB.jpg",
         description: "Affordable digital piano with a variety of sounds and a compact design.",
         category: "digital",
-        price: "Rs 35000",
+        price:  35000,
         rating: 4.3
     },
     {
@@ -240,7 +240,7 @@ export const piano = [
         image: "assets/CasioPriviaPX-770.jpg",
         description: "Digital piano with a realistic grand piano sound and a stylish cabinet.",
         category: "digital",
-        price: "Rs 60000",
+        price:  60000,
         rating: 4.4
     }
 ];
@@ -252,7 +252,7 @@ export const violin = [
         image: "assets/Stentor1500.jpg",
         description: "A reliable student violin with a warm tone and good playability.",
         category: "student",
-        price: "Rs 15000",
+        price:  15000,
         rating: 4.2
     },
     {
@@ -261,7 +261,7 @@ export const violin = [
         image: "assets/CremonaSV-175.jpg",
         description: "Affordable violin for beginners with a good balance of tone and playability.",
         category: "student",
-        price: "Rs 18000",
+        price:  18000,
         rating: 4.3
     },
     {
@@ -270,7 +270,7 @@ export const violin = [
         image: "assets/YamahaV3.jpg",
         description: "High-quality violin with a clear, resonant sound suitable for intermediate players.",
         category: "intermediate",
-        price: "Rs 25000",
+        price:  25000,
         rating: 4.5
     },
     {
@@ -279,7 +279,7 @@ export const violin = [
         image: "assets/EastmanVL100.jpg",
         description: "Well-crafted violin with a warm, full tone and excellent craftsmanship.",
         category: "intermediate",
-        price: "Rs 35000",
+        price:  35000,
         rating: 4.6
     },
     {
@@ -288,7 +288,7 @@ export const violin = [
         image: "assets/PietroLombardiModel10.jpg",
         description: "Professional-level violin with a rich, complex tone and exceptional projection.",
         category: "professional",
-        price: "Rs 100000",
+        price:  100000,
         rating: 4.8
     },
     {
@@ -297,7 +297,7 @@ export const violin = [
         image: "assets/AntonioStradivariReplica.jpg",
         description: "High-end violin with a classic, well-balanced sound and exquisite craftsmanship.",
         category: "professional",
-        price: "Rs 250000",
+        price:  250000,
         rating: 4.9
     },
     {
@@ -306,7 +306,7 @@ export const violin = [
         image: "assets/GligaGemsI.jpg",
         description: "Handcrafted violin with a bright, responsive tone and elegant design.",
         category: "professional",
-        price: "Rs 120000",
+        price:  120000,
         rating: 4.7
     }
 ];
@@ -318,7 +318,7 @@ export const drums = [
         image: "assets/LudwigAccentCS.jpg",
         description: "Entry-level drum kit with a versatile sound and durable construction.",
         category: "acoustic",
-        price: "Rs 25000",
+        price:  25000,
         rating: 4.2
     },
     {
@@ -327,7 +327,7 @@ export const drums = [
         image: "assets/PearlExportEXX.jpg",
         description: "Reliable drum kit with a wide range of sounds and solid build quality.",
         category: "acoustic",
-        price: "Rs 35000",
+        price:  35000,
         rating: 4.4
     },
     {
@@ -336,7 +336,7 @@ export const drums = [
         image: "assets/TamaImperialstar.jpg",
         description: "High-quality drum kit with exceptional sound and a professional feel.",
         category: "acoustic",
-        price: "Rs 45000",
+        price:  45000,
         rating: 4.6
     },
     {
@@ -345,7 +345,7 @@ export const drums = [
         image: "assets/MapexMarsSeries.jpg",
         description: "Versatile drum kit with a strong sound and robust construction.",
         category: "acoustic",
-        price: "Rs 50000",
+        price:  50000,
         rating: 4.5
     },
     {
@@ -354,7 +354,7 @@ export const drums = [
         image: "assets/DWCollector'sSeries.jpg",
         description: "Premium drum kit with a rich, dynamic sound and customizable features.",
         category: "acoustic",
-        price: "Rs 150000",
+        price:  150000,
         rating: 4.8
     },
     {
@@ -363,7 +363,7 @@ export const drums = [
         image: "assets/RolandV-DrumsTD-17.jpg",
         description: "Advanced electronic drum kit with realistic sounds and extensive features.",
         category: "electronic",
-        price: "Rs 80000",
+        price:  80000,
         rating: 4.7
     },
     {
@@ -372,7 +372,7 @@ export const drums = [
         image: "assets/Yamaha YV104.jpg",
         description: "Affordable electronic drum kit with a variety of sounds and practice features.",
         category: "electronic",
-        price: "Rs 40000",
+        price:  40000,
         rating: 4.3
     }
 ];

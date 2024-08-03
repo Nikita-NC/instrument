@@ -2,15 +2,16 @@ import { Component, OnInit } from '@angular/core';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import { data_list } from '../assets/data';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { Location } from '@angular/common';
 import { NavBarComponent } from '../nav-bar/nav-bar.component';
+import { CartService } from '../cart.service';
 
 @Component({
   selector: 'app-item-description',
   standalone: true,
-  imports: [FontAwesomeModule, CommonModule,NavBarComponent],
+  imports: [FontAwesomeModule, CommonModule,NavBarComponent,RouterModule],
   templateUrl: './item-description.component.html',
   styleUrl: './item-description.component.css',
 })
@@ -19,7 +20,7 @@ export class ItemDescriptionComponent {
 
   item: any;
 
-  constructor(private router: ActivatedRoute, private location: Location) {}
+  constructor(private router: ActivatedRoute, private location: Location, private cartService: CartService) {}
 
   ngOnInit(): void {
     const id = this.router.snapshot.paramMap.get('id');
@@ -29,4 +30,10 @@ export class ItemDescriptionComponent {
   goBack(): void{
     this.location.back()
   }
+
+  addToCart(): void{
+    this.cartService.addToCart(this.item)
+  }
+  
+    
 }
