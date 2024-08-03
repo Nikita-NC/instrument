@@ -1,6 +1,5 @@
 import { Routes } from '@angular/router';
 import { CategoryComponent } from '../category/category.component';
-import { ItemListComponent } from './item-list/item-list.component';
 import { ItemDescriptionComponent } from '../item-description/item-description.component';
 import { CartComponent } from '../cart/cart.component';
 import { PlaceOrderComponent } from '../place-order/place-order.component';
@@ -20,9 +19,6 @@ export const routes: Routes = [
     },
     {
         path: 'login', component:LoginComponent
-    },
-    {
-        path: 'item', component:ItemListComponent
     },
     {
         path: 'guitar', component:GuitarListComponent
